@@ -25,7 +25,6 @@ const connectDbAndRunQueries = async (apiName, req, res) => {
 
 		// default output
 		const output = { message: "SUCCESS" }
-
 		// perform several db actions based on API names
 		chooseApiAndSendResponse(apiName, db, req, res, client, output)
 	} catch (err) {
