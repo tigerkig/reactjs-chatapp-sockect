@@ -1,4 +1,3 @@
-// dependencies
 import mongodb from "mongodb"
 
 const { MongoClient, ObjectId } = mongodb
